@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OrderObatActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_orderForm"
+        android:text="Order Form"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_namaProduk"
+        android:text="Nama Produk : "
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_jumlahProduk"
+        android:text="Jumlah Produk : "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/et_jumlahProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Alamat"
+        android:text="Alamat : "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/et_Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+</LinearLayout>
