@@ -26,9 +26,9 @@ class DataAdapter(var list: ArrayList<DatabaseModel>) : RecyclerView.Adapter<Dat
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.namaProduk.text = list[position].namaProduk
-        holder.jumlahProduk.text = list[position].jumlahProduk
-        holder.alamatTujuan.text = list[position].alamat
+        holder.namaProduk.text = list[position].getnamaProduk()
+        holder.jumlahProduk.text = list[position].getjumlahProduk()
+        holder.alamatTujuan.text = list[position].getalamat()
 
     }
 }
